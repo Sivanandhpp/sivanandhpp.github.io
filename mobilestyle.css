@@ -19,15 +19,17 @@ ul{
 }
 
 .header{
-    margin-top: 50px;
-    position: relative;
-    max-width: 100%;
-    height: auto;
-    background-image: url(images/sivamob.jpg);
-    
+    background: #040404 url(images/sivamob.jpg) top right no-repeat;
+    background-size: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100vh;
 }
 
 .menu ul {
+    margin-top: 20px;
     background-color: none;
     overflow: auto;
     white-space: nowrap;
@@ -52,7 +54,7 @@ ul{
 
 .banner{
     position: absolute;
-    top: 100%;
+    top: 30%;
     left: 0;
     color: #fff;
 }
@@ -104,10 +106,10 @@ ul{
 .primary-btn:before{
     content: '';
     position: absolute;
-    width: 70px;
+    width: 50px;
     height: 3px;
     border-top: 3px solid #fff;
-    top: 88%;
+    top: 90%;
     left: 0;
 }
 
@@ -170,7 +172,7 @@ ul{
     display: block;
     color: #fff;
     text-align: center;
-    padding: 12px 17px;
+    padding: 7px 17px;
     font-size: 20px;
     font-weight: 700;
     border-radius: 10px;
