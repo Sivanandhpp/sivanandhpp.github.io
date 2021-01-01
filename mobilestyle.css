@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    background-color: black;
 }
 
 a{
@@ -24,7 +23,7 @@ ul{
     position: relative;
     max-width: 100%;
     height: auto;
-    background-image: none;
+    background-image: url(images/sivamob.jpg);
     
 }
 
