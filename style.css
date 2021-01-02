@@ -720,3 +720,8 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+@media (max-width: 400px){
+    .home .home-content .text-2{
+        font-size: 40px;
+    }
+}
