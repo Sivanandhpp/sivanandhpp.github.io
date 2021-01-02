@@ -642,6 +642,14 @@ footer span a:hover{
         font-size: 23px;
         padding: 10px 30px;
     }
+    .social-icons{
+        right: 0;
+        left: 0;
+        text-align: center;
+    }
+    .social-icons ul li{
+        width: 45px;
+    }
     .max-width{
         max-width: 930px;
     }
