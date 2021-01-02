@@ -629,9 +629,6 @@ footer span a:hover{
         margin: 20px 0;
         font-size: 25px;
     }
-    .home{
-        background: url("images/banner-mob.jpg") no-repeat center;
-    }
     .home .home-content .text-2{
         font-size: 70px;
     }
@@ -699,6 +696,9 @@ footer span a:hover{
     }
     .home .home-content .text-3{
         font-size: 27px;
+    }
+    .home{
+        background: url("images/banner-mob.jpg") no-repeat center;
     }
     .about .about-content .right .text,
     .skills .skills-content .left .text{
