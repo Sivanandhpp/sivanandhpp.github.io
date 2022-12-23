@@ -22,7 +22,7 @@
   --overlay-bg: rgba(36, 39, 59, 0.3);
   --scrollbar-bg: rgb(1 2 3 / 40%);
   --img-invert: invert(100%);
-  --theme-nav-color: rgba(29 29 63 / 80%)
+  --theme-nav-color-mob: rgba(29 29 63 / 100%);
 }
 
 .light-mode {
@@ -40,7 +40,7 @@
   --scrollbar-bg: rgb(255 253 253 / 57%);
   --content-title-color: --theme-color;
   --img-invert: invert(0%);
-  --theme-nav-color: rgba(211 210 239 / 80%)
+  --theme-nav-color-mob: rgba(211 210 239 / 100%);
 }
 
 html {
@@ -503,8 +503,6 @@ body.light-mode .video-bg:before {
   padding: 5px 0px;
   padding-top: 20px;
 }
-
-
 
 .siva-nandh {
   color: #ebecec;
@@ -1237,7 +1235,7 @@ body.light-mode .video-bg:before {
     display: none;
     z-index: 1;
     position: absolute;
-    background-color: var(--theme-nav-color);
+    background-color: var(--theme-nav-color-mob);
     backdrop-filter: blur(10px);
     box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
   }
