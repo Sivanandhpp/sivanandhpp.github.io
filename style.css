@@ -50,7 +50,7 @@ html {
 
 body {
   font-family: var(--body-font);
-  background-image: url("assets\img\wallpaper.jpg");
+  background-image: url("\assets\img\wallpaper.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
