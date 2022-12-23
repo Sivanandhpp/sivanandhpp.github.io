@@ -169,20 +169,20 @@
       <!-- TAB BAR END  -->
 
       <div id="home" class="tabcontent main-container">
-        
+
         <div class="content-wrapper">
           <div class="content-wrapper-header">
             <div class="content-wrapper-context">
               <div class="main-header-siva">
                 <a class="menu-link-main-siva">Hello, My name is</a>
-      
+
                 <a class="siva-nandh">Sivanandh PP</a>
               </div>
               <h3 class="img-content" style="color: antiquewhite;"">
                 <!-- Add Icon here -->
                 <!-- About me -->
               </h3>
-              <div class="content-text">I'm an energetic and social person who loves to take up new challenges and
+              <div class=" content-text">I'm an energetic and social person who loves to take up new challenges and
                 learn new skills. I love meeting new people, exchanging ideas, and spreading knowledge and positivity.
             </div>
             <button onclick="changeTab(event, 'resume')" class="content-button">Know more</button>
@@ -408,29 +408,235 @@
         </div>
       </div>
     </div>
+
+    <!-- RESUME DIV  -->
     <div id="resume" class="tabcontent main-container" style="display: none;">
-
       <iframe src="assets/doc/resume_sivanandh.pdf" style="width:100%;height:700px;"></iframe>
-
     </div>
-    <div id="projects" class="tabcontent main-container" style="display: none;">
-      <div class="overlay">
-        <div class="spinner center">
-          <div class="spinner-blade"></div>
-          <div class="spinner-blade"></div>
-          <div class="spinner-blade"></div>
-          <div class="spinner-blade"></div>
-          <div class="spinner-blade"></div>
-          <div class="spinner-blade"></div>
-          <div class="spinner-blade"></div>
-          <div class="spinner-blade"></div>
-          <div class="spinner-blade"></div>
-          <div class="spinner-blade"></div>
-          <div class="spinner-blade"></div>
-          <div class="spinner-blade"></div>
-        </div>
+
+    <!-- PROJECT DIV  -->
+
+    <div id="projects" class="tabcontent main-container div-wrapper" style="display: none;">
+      <div class="content-section">
+        <div class="content-section-title">Latest Works</div>
+        <ul>
+          <li class="adobe-product">
+            <div class="products">
+              <img src="assets/img/projThumbnails/imin.png" alt="imin thumbnail" height="30px"
+                style="padding-right: 15px;" viewbox="50">
+
+              iMiN - HR Management App
+            </div>
+            <span class="status">
+              <span class="status-circle"></span>
+              Flutter App</span>
+            <div class="button-wrapper">
+              <a style="text-decoration: none;" target="_blank" rel="noopener noreferrer"
+                class="content-button status-button open" href="https://github.com/sivanandhpp/imin">View Repo</a>
+              <div class="menu">
+                <button class="dropdown">
+                  <ul>
+                    <li><a href="#">Go to Repository</a></li>
+                    <li><a href="#">Learn more</a></li>
+                    <li><a href="#">Download</a></li>
+                  </ul>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="adobe-product">
+            <div class="products">
+              <img src="assets/img/projThumbnails/one.png" alt="imin thumbnail" height="30px"
+                style="padding-right: 15px;" viewbox="50">
+              one - The all in one solution
+            </div>
+            <span class="status">
+              <span class="status-circle"></span>
+              Flutter App</span>
+            <div class="button-wrapper">
+              <a style="text-decoration: none;" target="_blank" rel="noopener noreferrer"
+                class="content-button status-button open" href="https://github.com/sivanandhpp/one">View Repo</a>
+              <div class="menu">
+                <button class="dropdown">
+                  <ul>
+                    <li><a href="#">Go to Repository</a></li>
+                    <li><a href="#">Learn more</a></li>
+                    <li><a href="#">Download</a></li>
+                  </ul>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="adobe-product">
+            <div class="products">
+              <img src="assets/img/projThumbnails/gus.png" alt="gus thumbnail" height="30px"
+                style="padding-right: 15px;" viewbox="50">
+              ManuSebastian.com
+            </div>
+
+            <span class="status">
+              <span class="status-circle green"></span>
+              Website</span>
+            <div class="button-wrapper">
+              <!-- <button class="content-button status-button">View Proj</button> -->
+
+              <a style="text-decoration: none;" target="_blank" rel="noopener noreferrer"
+                class="content-button status-button open" href="https://manusebastian.com/">Open Web</a>
+
+              <div class="menu">
+                <button class="dropdown">
+                  <ul>
+                    <li><a href="#">Go to Discover</a></li>
+                    <li><a href="#">Learn more</a></li>
+                    <li><a href="#">Uninstall</a></li>
+                  </ul>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="adobe-product">
+            <div class="products">
+              <img src="assets/img/projThumbnails/cs.png" alt="CollectiveStoryz thumbnail" height="30px"
+                style="padding-right: 15px;" viewbox="50">
+              CollectiveStoryz.in
+            </div>
+            <span class="status">
+              <span class="status-circle green"></span>
+              Website</span>
+            <div class="button-wrapper">
+              <a style="text-decoration: none;" target="_blank" rel="noopener noreferrer"
+                class="content-button status-button open" href="https://collectivestoryz.in/">Open Web</a>
+              <div class="menu">
+                <button class="dropdown">
+                  <ul>
+                    <li><a href="#">Go to Discover</a></li>
+                    <li><a href="#">Learn more</a></li>
+                    <li><a href="#">Uninstall</a></li>
+                  </ul>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="adobe-product">
+            <div class="products">
+              <img src="assets/img/projThumbnails/tiktok.png" alt="CollectiveStoryz thumbnail" height="30px"
+                style="padding-right: 15px;" viewbox="50">
+              TikTok Clone
+            </div>
+            <span class="status">
+              <span class="status-circle"></span>
+              Flutter App</span>
+            <div class="button-wrapper">
+              <a style="text-decoration: none;" target="_blank" rel="noopener noreferrer"
+                class="content-button status-button open" href="https://collectivestoryz.in/">Open Web</a>
+              <div class="menu">
+                <button class="dropdown">
+                  <ul>
+                    <li><a href="#">Go to Discover</a></li>
+                    <li><a href="#">Learn more</a></li>
+                    <li><a href="#">Uninstall</a></li>
+                  </ul>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="adobe-product">
+            <div class="products">
+              <img src="assets/img/projThumbnails/biometricauth.png" alt="CollectiveStoryz thumbnail" height="30px"
+                style="padding-right: 15px;" viewbox="50">
+              Biometric Auth
+            </div>
+            <span class="status">
+              <span class="status-circle"></span>
+              Flutter App</span>
+            <div class="button-wrapper">
+              <a style="text-decoration: none;" target="_blank" rel="noopener noreferrer"
+                class="content-button status-button open" href="https://collectivestoryz.in/">Open Web</a>
+              <div class="menu">
+                <button class="dropdown">
+                  <ul>
+                    <li><a href="#">Go to Discover</a></li>
+                    <li><a href="#">Learn more</a></li>
+                    <li><a href="#">Uninstall</a></li>
+                  </ul>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="adobe-product">
+            <div class="products">
+              <img src="assets/img/projThumbnails/videoconnect.png" alt="CollectiveStoryz thumbnail" height="30px"
+                style="padding-right: 15px;" viewbox="50">
+              Video Connect
+            </div>
+            <span class="status">
+              <span class="status-circle"></span>
+              Flutter App</span>
+            <div class="button-wrapper">
+              <a style="text-decoration: none;" target="_blank" rel="noopener noreferrer"
+                class="content-button status-button open" href="https://collectivestoryz.in/">Open Web</a>
+              <div class="menu">
+                <button class="dropdown">
+                  <ul>
+                    <li><a href="#">Go to Discover</a></li>
+                    <li><a href="#">Learn more</a></li>
+                    <li><a href="#">Uninstall</a></li>
+                  </ul>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="adobe-product">
+            <div class="products">
+              <img src="assets/img/projThumbnails/wordcloud.png" alt="CollectiveStoryz thumbnail" height="30px"
+                style="padding-right: 15px;" viewbox="50">
+              WordCloud
+            </div>
+            <span class="status">
+              <span class="status-circle green"></span>
+              Python</span>
+            <div class="button-wrapper">
+              <a style="text-decoration: none;" target="_blank" rel="noopener noreferrer"
+                class="content-button status-button open" href="https://collectivestoryz.in/">Open Web</a>
+              <div class="menu">
+                <button class="dropdown">
+                  <ul>
+                    <li><a href="#">Go to Discover</a></li>
+                    <li><a href="#">Learn more</a></li>
+                    <li><a href="#">Uninstall</a></li>
+                  </ul>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="adobe-product">
+            <div class="products">
+              <img src="assets/img/projThumbnails/number.png" alt="CollectiveStoryz thumbnail" height="30px"
+                style="padding-right: 15px;" viewbox="50">
+              Number Game
+            </div>
+            <span class="status">
+              <span class="status-circle green"></span>
+              Java</span>
+            <div class="button-wrapper">
+              <a style="text-decoration: none;" target="_blank" rel="noopener noreferrer"
+                class="content-button status-button open" href="https://collectivestoryz.in/">Open Web</a>
+              <div class="menu">
+                <button class="dropdown">
+                  <ul>
+                    <li><a href="#">Go to Discover</a></li>
+                    <li><a href="#">Learn more</a></li>
+                    <li><a href="#">Uninstall</a></li>
+                  </ul>
+                </button>
+              </div>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
+
+
     <div id="education" class="tabcontent main-container" style="display: none;">
       <div class="overlay">
         <div class="spinner center">
