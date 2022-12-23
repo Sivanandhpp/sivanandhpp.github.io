@@ -1232,6 +1232,7 @@ body.light-mode .video-bg:before {
   }
 
   .left-side {
+    height: 100vh;
     display: none;
     z-index: 1;
     position: absolute;
