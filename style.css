@@ -636,7 +636,7 @@ body.light-mode .video-bg:before {
 }
 
 .content-section ul li {
-  margin: 10px 0 5px 0;
+  margin-top: 2px;
   border-radius: 14px;
   background-color: var(--content-bg);
   border: 1px solid var(--theme-bg-color);
@@ -1222,6 +1222,7 @@ body.light-mode .video-bg:before {
 }
 
 .exp-content p {
+  margin: 10px;
   text-align: justify;
   line-height: 1.7em;
   font-weight: 400;
