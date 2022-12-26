@@ -1421,6 +1421,9 @@ div.arrow:hover::before {
 }
 
 @media screen and (max-width: 768px) {
+  #resume{
+    width: 100vw;
+  }
   .app {
     border-radius: 0%;
   }
